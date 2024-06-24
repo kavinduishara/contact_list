@@ -1,0 +1,57 @@
+/* AnchorPane background */
+AnchorPane {
+    -fx-background-color: rgb(100, 100, 100); /* Background color */
+}
+
+/* Labels styling */
+Label {
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 14px; /* Font size */
+}
+
+/* TextField styling */
+TextField {
+    -fx-background-color: rgb(192, 192, 192); /* Background color */
+    -fx-text-fill: black; /* Text color */
+    -fx-border-color: white; /* Border color */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+    -fx-padding: 5px; /* Padding */
+}
+
+/* Buttons common styling */
+Button {
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+    -fx-cursor: hand; /* Cursor on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0.5, 0, 2); /* Drop shadow effect */
+}
+
+/* Save Button */
+#addbtn {
+    -fx-background-color: rgb(0, 128, 255); /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-border-color: rgb(0, 0, 255); /* Border color */
+}
+
+/* Save Button hover effect */
+#addbtn:hover {
+    -fx-background-color: rgb(0, 100, 200); /* Background color on hover */
+    -fx-border-color: rgb(0, 0, 200); /* Border color on hover */
+}
+
+/* Back Button */
+#editbtn {
+    -fx-background-color: rgb(0, 255, 128); /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-border-color: rgb(0, 255, 0); /* Border color */
+}
+
+/* Back Button hover effect */
+#editbtn:hover {
+    -fx-background-color: rgb(0, 200, 100); /* Background color on hover */
+    -fx-border-color: rgb(0, 200, 0); /* Border color on hover */
+}

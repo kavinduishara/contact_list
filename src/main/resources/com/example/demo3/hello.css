@@ -1,0 +1,68 @@
+#background {
+    -fx-background-color: rgb(100,100,100); /* Background color of the AnchorPane */
+}
+
+#searchbar {
+    -fx-background-color: rgb(150,150,150); /* Background color of the TextField */
+    -fx-text-fill: white; /* Text color */
+    -fx-prompt-text-fill: lightgrey; /* Color of the prompt text */
+    -fx-border-color: #ffffff; /* Border color */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+    -fx-padding: 5px; /* Padding */
+}
+
+#contacts {
+    -fx-background-color: rgb(255,255,255); /* Background color of the ListView */
+    -fx-border-color: rgb(0,0,0); /* Border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+}
+
+ #deletebtn, #editbtn {
+    -fx-background-color: rgb(0,128,255); /* Default background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-border-color: rgb(0,0,255); /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+    -fx-cursor: hand; /* Cursor on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0.5, 0, 2); /* Drop shadow effect */
+}
+
+/* Specific button colors */
+#deletebtn {
+    -fx-background-color: #ff6666; /* Background color */
+    -fx-border-color: #ff3333; /* Border color */
+}
+
+#deletebtn:hover {
+    -fx-background-color: #ff4c4c; /* Background color on hover */
+    -fx-border-color: #ff1a1a; /* Border color on hover */
+}
+
+#editbtn {
+    -fx-background-color: rgb(0,255,128); /* Background color */
+    -fx-border-color: rgb(0,255,0); /* Border color */
+}
+
+#editbtn:hover {
+    -fx-background-color: rgb(0,200,100); /* Background color on hover */
+    -fx-border-color: rgb(0,200,0); /* Border color on hover */
+}
+
+#addbtn {
+    -fx-background-color: rgb(0,128,255); /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-border-color: rgb(0,0,255); /* Border color */
+    -fx-border-color: rgb(0,0,255);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0.5, 0, 2); /* Drop shadow effect */
+}
+
+#addbtn:hover {
+    -fx-background-color: rgb(0,100,200); /* Background color on hover */
+    -fx-border-color: rgb(0,0,200); /* Border color on hover */
+}
